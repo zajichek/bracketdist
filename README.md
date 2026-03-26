@@ -1,8 +1,6 @@
 # bracketdist
 
-Simulate bracket distributions with custom probability models
-
-The goal of `bracketdist` is simple: assign the distribution of probability mass across the possible set of tournament bracket configurations.
+The goal of `bracketdist` is simple: distribute probability mass across the possible set of tournament brackets.
 
 P(b|data)
 
