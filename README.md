@@ -15,3 +15,8 @@ This package provides the engine for estimating the bracket posterior distributi
 The other main subsequent idea this explores is th concept of bracket similarity. Even if we find the single most likely bracket, when theres trillions of possibilities, that doesnt give us much confidence. It may be the case that the most likely bracket has a very particular configuration. But then the next 20% of probability mass is distributed among brackets that have bery similar components/subbrackets (e.g., the same final 4 but slight differences in earlier rounds). Thus the pool of that information would suggest we should accumulate info across those brackets. So we need to introduce a level of bracket similarity and then group things accordingly.
 
 Focus is initially on the NCAA Men's Basketball Tournament, but could extend this to any bracket tournamnet structure (in theory)
+
+Some useful reference work:
+
+* [https://predicting-march-madness.streamlit.app/](https://predicting-march-madness.streamlit.app/)
+* [https://github.com/markjrieke/2025-march-madness](https://github.com/markjrieke/2025-march-madness)
